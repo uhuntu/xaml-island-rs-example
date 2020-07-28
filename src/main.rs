@@ -17,7 +17,7 @@ use winrt::{
     microsoft::toolkit::win32::ui::xamlhost::IDesktopWindowXamlSourceNative,
     windows::ui::xaml::{
         controls::{Button, Page, StackPanel, TextBlock, TextBox},
-        hosting::{DesktopWindowXamlSource, IDesktopWindowXamlSourceFactory, WindowsXamlManager},
+        hosting::{DesktopWindowXamlSource, IDesktopWindowXamlSourceFactory},
         markup::XamlReader,
         RoutedEventHandler,
     },
